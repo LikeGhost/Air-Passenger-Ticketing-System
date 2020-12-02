@@ -7,14 +7,14 @@
 using namespace std;
 int main() {
 	FILE* fp;
-	const char* ch[10] = { "±±¾©","ÉÏº£","³É¶¼","¹ãÖİ","Î÷°²","ÉîÛÚ","Ïã¸Û","À¥Ã÷","º¼Öİ","ÏÃÃÅ" };
+	const char* ch[10] = { "åŒ—äº¬","ä¸Šæµ·","æˆéƒ½","å¹¿å·","è¥¿å®‰","æ·±åœ³","é¦™æ¸¯","æ˜†æ˜","æ­å·","å¦é—¨" };
 	const char* bh[10] = { "JD","FM","EU","BY","PN","ZH","HK","KY","GJ","MF" };
 	int cnt = 100;
 	string date;
 	cin >> date;
 	srand(time(0));
-	fp = fopen("²âÊÔ.txt"/*(date + ".txt").c_str()*/, "wt+");
-	fprintf(fp, "        Æğ µã Õ¾        ÖÕ µã Õ¾        ·É ĞĞ ÈÕ ÆÚ        º½ °à ºÅ        ·É »ú ºÅ        ³Ë ÔØ Á¿        Óà Æ± Á¿\n");
+	fp = fopen("æµ‹è¯•.txt"/*(date + ".txt").c_str()*/, "wt+");
+	fprintf(fp, "        èµ· ç‚¹ ç«™        ç»ˆ ç‚¹ ç«™        é£ è¡Œ æ—¥ æœŸ        èˆª ç­ å·        é£ æœº å·        ä¹˜ è½½ é‡        ä½™ ç¥¨ é‡\n");
 	for (int i=0;i<30;i++) {
 		stringstream ss;
 		for (int i = 0; i < 10; i++) {
