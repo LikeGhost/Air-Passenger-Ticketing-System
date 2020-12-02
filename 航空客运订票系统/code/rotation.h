@@ -14,8 +14,8 @@ int GetH(Flight_Num* FHT) {
     if (!FHT)return 0;
     return FHT->height;
 }
-//各种ll，lr，rr，rl旋转
-//起点站的旋转
+//鍚勭ll锛宭r锛宺r锛宺l鏃嬭浆
+//璧风偣绔欑殑鏃嬭浆
 Flight_Start* SigleLeftRotation(Flight_Start* A) {
     Flight_Start* B = A->left;
     A->left = B->right;
@@ -40,7 +40,7 @@ Flight_Start* DoublerightleftRotation(Flight_Start* A) {
     A->right = SigleLeftRotation(A->right);
     return SigleRightRotation(A);
 }
-//终点站的旋转
+//缁堢偣绔欑殑鏃嬭浆
 Flight_End* SigleLeftRotation(Flight_End* A) {
     Flight_End* B = A->left;
     A->left = B->right;
@@ -65,7 +65,7 @@ Flight_End* DoublerightleftRotation(Flight_End* A) {
     A->right = SigleLeftRotation(A->right);
     return SigleRightRotation(A);
 }
-//航班号的旋转
+//鑸彮鍙风殑鏃嬭浆
 Flight_Num* SigleLeftRotation(Flight_Num* A) {
     Flight_Num* B = A->left;
     A->left = B->right;
