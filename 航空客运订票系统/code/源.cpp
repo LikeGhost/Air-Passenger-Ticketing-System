@@ -11,7 +11,7 @@
 #define MAX(a,b) ((a)>(b)?(a):(b))
 
 using namespace std;
-//≤Àµ•≥ı ºªØ
+//ËèúÂçïÂàùÂßãÂåñ
 void SetUp() {
     cout << endl << endl;
     cout << "             **        *        ** ****** *       ****    ****       *         *      ******" << endl;
@@ -21,22 +21,22 @@ void SetUp() {
     cout << "                 ***      ***      *      *      *       *    *  *       * *       *  *     " << endl;
     cout << "                  *        *       ****** ******  ****    ****  *         *         * ******" << endl;
     cout << endl << endl << endl;
-    cout << "          °Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó Airplane Servervice System °Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó°Ó" << endl;
+    cout << "          ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ Airplane Servervice System ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ‚òÜ" << endl;
     cout << endl;
-    cout << "                              ©≥©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©∑\n";
-    cout << "                              ©ß      ª∂”≠ π”√∫Ωø’øÕ‘À∂©∆±œµÕ≥      ©ß\n";
-    cout << "                              ©ß©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©ß\n";
-    cout << "                              ©ß 1.¬º»Î∫Ω∞‡–≈œ¢    5.π∫∆±           ©ß\n";
-    cout << "                              ©ß©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©ß\n";
-    cout << "                              ©ß 2.º”‘ÿ∫Ω∞‡ ˝æ›    6.ÕÀ∆±           ©ß\n";
-    cout << "                              ©ß©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©ß\n";
-    cout << "                              ©ß 3.«Â≥˝∫Ω∞‡º«¬º    7.±£¥Ê∫Ω∞‡–≈œ¢   ©ß\n";
-    cout << "                              ©ß©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©ß\n";
-    cout << "                              ©ß 4.≤È—Ø∫Ω∞‡        0.ÕÀ≥ˆ           ©ß\n";
-    cout << "                              ©ª©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©•©ø\n";
+    cout << "                              ‚îè‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îì\n";
+    cout << "                              ‚îÉ      Ê¨¢Ëøé‰ΩøÁî®Ëà™Á©∫ÂÆ¢ËøêËÆ¢Á•®Á≥ªÁªü      ‚îÉ\n";
+    cout << "                              ‚îÉ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÉ\n";
+    cout << "                              ‚îÉ 1.ÂΩïÂÖ•Ëà™Áè≠‰ø°ÊÅØ    5.Ë¥≠Á•®           ‚îÉ\n";
+    cout << "                              ‚îÉ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÉ\n";
+    cout << "                              ‚îÉ 2.Âä†ËΩΩËà™Áè≠Êï∞ÊçÆ    6.ÈÄÄÁ•®           ‚îÉ\n";
+    cout << "                              ‚îÉ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÉ\n";
+    cout << "                              ‚îÉ 3.Ê∏ÖÈô§Ëà™Áè≠ËÆ∞ÂΩï    7.‰øùÂ≠òËà™Áè≠‰ø°ÊÅØ   ‚îÉ\n";
+    cout << "                              ‚îÉ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÉ\n";
+    cout << "                              ‚îÉ 4.Êü•ËØ¢Ëà™Áè≠        0.ÈÄÄÂá∫           ‚îÉ\n";
+    cout << "                              ‚îó‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îÅ‚îõ\n";
 
 }
-//∏˘æ›µÿµ„ππΩ®AVL ˜µƒ∫Ω∞‡≤Â»Î
+//Ê†πÊçÆÂú∞ÁÇπÊûÑÂª∫AVLÊ†ëÁöÑËà™Áè≠ÊèíÂÖ•
 void Plane_Insert(Flight_End* End, Plane_Node* New) {
     Plane_Node* T = End->data;
     if (!T) {
@@ -63,7 +63,7 @@ void Plane_Insert(Flight_End* End, Plane_Node* New) {
 
     return;
 };
-//∏˘æ›∫Ω∞‡∫≈ππΩ®AVL ˜µƒ∫Ω∞‡≤Â»Î
+//Ê†πÊçÆËà™Áè≠Âè∑ÊûÑÂª∫AVLÊ†ëÁöÑËà™Áè≠ÊèíÂÖ•
 void Plane_Insert(Flight_Num*& FNT, Plane_Node* New) {
     Plane_Node* T = FNT->data;
     if (!T) {
@@ -87,7 +87,7 @@ void Plane_Insert(Flight_Num*& FNT, Plane_Node* New) {
     }
     return;
 }
-//∏˘æ› ±º‰ππΩ®µƒ¡¥±Ìµƒ∫Ω∞‡≤Â»Î
+//Ê†πÊçÆÊó∂Èó¥ÊûÑÂª∫ÁöÑÈìæË°®ÁöÑËà™Áè≠ÊèíÂÖ•
 void Plane_Insert(Flight_Time*& FTT, Plane_Node* New) {
     Plane_Node* T = FTT->data;
     for (; T->satmnext; T = T->satmnext) {
@@ -106,7 +106,7 @@ void Plane_Insert(Flight_Time*& FTT, Plane_Node* New) {
 
 
 }
-//∫Ω∞‡∫≈AVL ˜µƒ≤Â»Îµ˜’˚
+//Ëà™Áè≠Âè∑AVLÊ†ëÁöÑÊèíÂÖ•Ë∞ÉÊï¥
 Flight_Num* FN_Insert(Flight_Num*& FNT, Plane_Node* New) {
     if (FNT == NULL) {
         FNT = new Flight_Num;
@@ -141,7 +141,7 @@ Flight_Num* FN_Insert(Flight_Num*& FNT, Plane_Node* New) {
     FNT->height = MAX(GetH(FNT->left), GetH(FNT->right)) + 1;
     return FNT;
 }
-//÷’µ„’æAVL ˜µƒ≤Â»Îµ˜’˚
+//ÁªàÁÇπÁ´ôAVLÊ†ëÁöÑÊèíÂÖ•Ë∞ÉÊï¥
 Flight_End* FE_Insert(Flight_End* End, string end, Plane_Node* New) {
     if (End == NULL) {
         End = new Flight_End;
@@ -177,7 +177,7 @@ Flight_End* FE_Insert(Flight_End* End, string end, Plane_Node* New) {
     End->height = MAX(GetH(End->left), GetH(End->right)) + 1;
     return End;
 }
-//∆µ„’æAVL ˜µƒ≤Â»Îµ˜’˚
+//Ëµ∑ÁÇπÁ´ôAVLÊ†ëÁöÑÊèíÂÖ•Ë∞ÉÊï¥
 Flight_Start* FS_Insert(Flight_Start*& Start, string start, string end, Plane_Node* New) {
     if (Start == NULL) {
         Start = new Flight_Start;
@@ -213,7 +213,7 @@ Flight_Start* FS_Insert(Flight_Start*& Start, string start, string end, Plane_No
     Start->height = MAX(GetH(Start->left), GetH(Start->right)) + 1;
     return Start;
 }
-// ±º‰÷·µƒ≤Â»Îµ˜’˚
+//Êó∂Èó¥ËΩ¥ÁöÑÊèíÂÖ•Ë∞ÉÊï¥
 Flight_Time* FT_Insert(Flight_Time*& FTT, Plane_Node* New) {
     Flight_Time* T = FTT;
     for (; T->next; T = T->next) {
@@ -236,7 +236,7 @@ Flight_Time* FT_Insert(Flight_Time*& FTT, Plane_Node* New) {
     return FTT;
 }
 
-//∫Ω∞‡¬º»Î
+//Ëà™Áè≠ÂΩïÂÖ•
 void Entry(Flight_Num*& FNT, Flight_Start*& FST, Flight_Time*& FTT) {
     system("cls");
     Plane_Node* New = new Plane_Node;
@@ -244,34 +244,34 @@ void Entry(Flight_Num*& FNT, Flight_Start*& FST, Flight_Time*& FTT) {
     char ch;
     int order;
     string od;
-    cout << "«Î ¬º »Î ∫Ω ∞‡£¨—° ‘Ò ≤À µ• ¬º »Î ∫Ω ∞‡ –≈ œ¢\n" << endl;
+    cout << "ËØ∑ ÂΩï ÂÖ• Ëà™ Áè≠ÔºåÈÄâ Êã© Ëèú Âçï ÂΩï ÂÖ• Ëà™ Áè≠ ‰ø° ÊÅØ\n" << endl;
     while (1) {
         cout << "\n";
-        cout << "1. ∆ µ„ ’æ";
+        cout << "1. Ëµ∑ ÁÇπ Á´ô";
         if (sign[1])cout << ":" << New->start;
         cout << '\n' << endl;
-        cout << "2. ÷’ µ„ ’æ";
+        cout << "2. Áªà ÁÇπ Á´ô";
         if (sign[2])cout << ":" << New->end;
         cout << '\n' << endl;
-        cout << "3. ∫Ω ∞‡ ∫≈";
+        cout << "3. Ëà™ Áè≠ Âè∑";
         if (sign[3])cout << ":" << New->FlightNum;
         cout << '\n' << endl;
-        cout << "4. ∑… ª˙ ∫≈";
+        cout << "4. È£û Êú∫ Âè∑";
         if (sign[4])cout << ":" << New->PlaneNum;
         cout << '\n' << endl;
-        cout << "5. ∑… –– »’ ∆⁄";
+        cout << "5. È£û Ë°å Êó• Êúü";
         if (sign[5])cout << ":" << New->date;
         cout << '\n' << endl;
-        cout << "6. ≥À ‘ÿ ¡ø";
+        cout << "6. ‰πò ËΩΩ Èáè";
         if (sign[6])cout << ":" << New->cap;
         cout << '\n' << endl;
-        cout << "7. ”‡ ∆± ¡ø";
+        cout << "7. ‰Ωô Á•® Èáè";
         if (sign[7])cout << ":" << New->lecap;
         cout << '\n' << endl;
-        cout << "8. ¬º »Î";
+        cout << "8. ÂΩï ÂÖ•";
         cout << '\n' << endl;
-        cout << "0. ÕÀ ≥ˆ ¬º »Î\n" << endl;
-        cout << "«Î —° ‘Ò ≤À µ•£∫";
+        cout << "0. ÈÄÄ Âá∫ ÂΩï ÂÖ•\n" << endl;
+        cout << "ËØ∑ ÈÄâ Êã© Ëèú ÂçïÔºö";
         ch = getche();
         order = ch - '0';
         cout << endl << endl;
@@ -281,61 +281,61 @@ void Entry(Flight_Num*& FNT, Flight_Start*& FST, Flight_Time*& FTT) {
          int order = od[0] - '0';*/
         switch (order) {
         case 1:
-            cout << "\n∆ µ„ ’æ£∫";
+            cout << "\nËµ∑ ÁÇπ Á´ôÔºö";
             cin >> New->start;
             sign[order] = true;
             break;
         case 2:
-            cout << "\n÷’ µ„ ’æ£∫";
+            cout << "\nÁªà ÁÇπ Á´ôÔºö";
             cin >> New->end;
             sign[order] = true;
             break;
         case 3:
-            cout << "\n∫Ω ∞‡ ∫≈£∫";
+            cout << "\nËà™ Áè≠ Âè∑Ôºö";
             cin >> New->FlightNum;
             sign[order] = true;
             break;
         case 4:
-            cout << "\n∑… ª˙ ∫≈£∫";
+            cout << "\nÈ£û Êú∫ Âè∑Ôºö";
             cin >> New->PlaneNum;
             sign[order] = true;
             break;
         case 5:
             while (1) {
-                cout << "\n∑… –– »’ ∆⁄£®»Á20010102)£∫";
+                cout << "\nÈ£û Ë°å Êó• ÊúüÔºàÂ¶Ç20010102)Ôºö";
                 cin >> New->date;
                 if (atoi(New->date.c_str()) && New->date.size() == 8) {
                     sign[order] = true;
                     break;
                 }
                 else {
-                    cout << "\n«Î  ‰ »Î ’˝ »∑ µƒ ∑… –– »’ ∆⁄£°" << endl;
+                    cout << "\nËØ∑ Ëæì ÂÖ• Ê≠£ Á°Æ ÁöÑ È£û Ë°å Êó• ÊúüÔºÅ" << endl;
                 }
             }
             break;
         case 6:
             while (1) {
-                cout << "\n≥À ‘ÿ ¡ø£∫";
+                cout << "\n‰πò ËΩΩ ÈáèÔºö";
                 cin >> New->cap;
                 if (atoi(New->cap.c_str())) {
                     sign[order] = true;
                     break;
                 }
                 else {
-                    cout << "\n«Î  ‰ »Î ’˝ »∑ µƒ ≥À ‘ÿ ¡ø£°" << endl;
+                    cout << "\nËØ∑ Ëæì ÂÖ• Ê≠£ Á°Æ ÁöÑ ‰πò ËΩΩ ÈáèÔºÅ" << endl;
                 }
             }
             break;
         case 7:
             while (1) {
-                cout << "\n”‡ ∆± ¡ø£∫";
+                cout << "\n‰Ωô Á•® ÈáèÔºö";
                 cin >> New->lecap;
                 if (atoi(New->lecap.c_str())) {
                     sign[order] = true;
                     break;
                 }
                 else {
-                    cout << "\n«Î  ‰ »Î ’˝ »∑ µƒ ”‡ ∆± ¡ø£°" << endl;
+                    cout << "\nËØ∑ Ëæì ÂÖ• Ê≠£ Á°Æ ÁöÑ ‰Ωô Á•® ÈáèÔºÅ" << endl;
                 }
                 break;
             }
@@ -343,27 +343,27 @@ void Entry(Flight_Num*& FNT, Flight_Start*& FST, Flight_Time*& FTT) {
         case 8:
             for (int i = 1; i < 8; i++) {
                 if (!sign[i]) {
-                    cout << "\n–≈ œ¢ º¸ »Î Œ¥ ÕÍ »´£°\n" << endl;
+                    cout << "\n‰ø° ÊÅØ ÈîÆ ÂÖ• Êú™ ÂÆå ÂÖ®ÔºÅ\n" << endl;
                     Sleep(700);
                     flag = true;
                     break;
                 }
             }
             if (flag)break;
-            printf("        ∆ µ„ ’æ        ÷’ µ„ ’æ        ∑… –– »’ ∆⁄        ∫Ω ∞‡ ∫≈        ∑… ª˙ ∫≈        ≥À ‘ÿ ¡ø        ”‡ ∆± ¡ø\n");
+            printf("        Ëµ∑ ÁÇπ Á´ô        Áªà ÁÇπ Á´ô        È£û Ë°å Êó• Êúü        Ëà™ Áè≠ Âè∑        È£û Êú∫ Âè∑        ‰πò ËΩΩ Èáè        ‰Ωô Á•® Èáè\n");
 
             printf("%16s  --->  %8s        %11s        %8s        %8s        %8s        %8s\n", New->start.c_str(), New->end.c_str(), New->date.c_str(), New->FlightNum.c_str(), New->PlaneNum.c_str(), New->cap.c_str(), New->lecap.c_str());
 
-            cout << "»∑ »œ ¬º »Î “‘ …œ ƒ⁄ »›£ø(Y/N)" << endl;
+            cout << "Á°Æ ËÆ§ ÂΩï ÂÖ• ‰ª• ‰∏ä ÂÜÖ ÂÆπÔºü(Y/N)" << endl;
             ch = getch();
             if (ch == 'y' || ch == 'Y') {
 
                 FST = FS_Insert(FST, New->start, New->end, New);
                 FNT = FN_Insert(FNT, New);
                 FTT = FT_Insert(FTT, New);
-                cout << "¬º »Î ≥… π¶£°" << endl;
+                cout << "ÂΩï ÂÖ• Êàê ÂäüÔºÅ" << endl;
                 Sleep(700);
-                cout << " « ∑Ò ºÃ –¯ ¬º »Î£ø(Y/N)" << endl;
+                cout << "ÊòØ Âê¶ Áªß Áª≠ ÂΩï ÂÖ•Ôºü(Y/N)" << endl;
                 ch = getch();
                 if (ch == 'y' || ch == 'Y') {
                     memset(sign, 0, 8);
@@ -378,7 +378,7 @@ void Entry(Flight_Num*& FNT, Flight_Start*& FST, Flight_Time*& FTT) {
             delete  New;
             return;
         default:
-            cout << "«Î —° ‘Ò ’˝ »∑ µƒ ≤À µ•£°" << endl;
+            cout << "ËØ∑ ÈÄâ Êã© Ê≠£ Á°Æ ÁöÑ Ëèú ÂçïÔºÅ" << endl;
             Sleep(700);
             break;
         }
@@ -387,12 +387,12 @@ void Entry(Flight_Num*& FNT, Flight_Start*& FST, Flight_Time*& FTT) {
     }
 }
 
-//¥”Œƒº˛º”‘ÿ∫Ω∞‡–≈œ¢
+//‰ªéÊñá‰ª∂Âä†ËΩΩËà™Áè≠‰ø°ÊÅØ
 void Install_Buyer(Plane_Node* PN) {
     Tickets_Node* T = PN->ticket;
     if (PN->lecap == PN->cap)return;
     string root = PN->date + "\\" + PN->date + PN->start + "-" + PN->end + PN->FlightNum;
-    string mkdir = "mkdir " + root, filename = root + "\\" + "∂© ∆± √˚ µ•.txt";
+    string mkdir = "mkdir " + root, filename = root + "\\" + "ËÆ¢ Á•® Âêç Âçï.txt";
     if (access(root.c_str(), 00) == -1) {
         system(mkdir.c_str());
     }
@@ -421,7 +421,7 @@ void Install_Buyer(Plane_Node* PN) {
 void Install_Waiter(Plane_Node* PN) {
     Tickets_Node* T = PN->ticket;
     string root = PN->date + "\\" + PN->date + PN->start + "-" + PN->end + " " + PN->FlightNum;
-    string  mkdir = "mkdir " + root, filename = root + "∫Ú ≤π √˚ µ•.txt";
+    string  mkdir = "mkdir " + root, filename = root + "ÂÄô Ë°• Âêç Âçï.txt";
     FILE* fp = fopen(filename.c_str(), "r+");
     if (fp == NULL) {
         return;
@@ -448,14 +448,14 @@ void Install(Flight_Num*& FNT, Flight_Start*& FST, Flight_Time*& FTT) {
     string filename;
     ifstream in;
     while (1) {
-        cout << "«Î  ‰ »Î –Ë “™ ‘ÿ »Î µƒ Œƒ º˛ √˚£∫";
+        cout << "ËØ∑ Ëæì ÂÖ• ÈúÄ Ë¶Å ËΩΩ ÂÖ• ÁöÑ Êñá ‰ª∂ ÂêçÔºö";
         cin >> filename;
         if (filename == "Q" || filename == "q")return;
         filename.append(".txt");
         in.open(filename);
         if (!(in)) {
-            cout << "\n«Î œ» ¥¥ Ω® ∫Ω ∞‡ º« ¬º Œƒ º˛£°\n" << endl;
-            cout << " ‰ »Î Q ∑µ ªÿ ÷˜ ≤À µ•\n" << endl;
+            cout << "\nËØ∑ ÂÖà Âàõ Âª∫ Ëà™ Áè≠ ËÆ∞ ÂΩï Êñá ‰ª∂ÔºÅ\n" << endl;
+            cout << "Ëæì ÂÖ• Q Ëøî Âõû ‰∏ª Ëèú Âçï\n" << endl;
         }
         else break;
     }
@@ -473,10 +473,10 @@ void Install(Flight_Num*& FNT, Flight_Start*& FST, Flight_Time*& FTT) {
         FN_Insert(FNT, New);
         FT_Insert(FTT, New);
     }
-    cout << "\n∫Ω ∞‡ º« ¬º Œƒ º˛ ‘ÿ »Î ≥… π¶£°" << endl;
+    cout << "\nËà™ Áè≠ ËÆ∞ ÂΩï Êñá ‰ª∂ ËΩΩ ÂÖ• Êàê ÂäüÔºÅ" << endl;
     Sleep(700);
 }
-//«Â≥˝∫Ω∞‡º«¬º
+//Ê∏ÖÈô§Ëà™Áè≠ËÆ∞ÂΩï
 void Del_Flight(Flight_Num* FNT, string date) {
     Plane_Node* T = FNT->data->safnnext;
     for (; T; ) {
@@ -510,17 +510,17 @@ void Clear(Flight_Num* FNT) {
     string date;
     while (1) {
         system("cls");
-        cout << "¥À »’ ∆⁄ «∞ µƒ ∫Ω ∞‡ º« ¬º Ω´ ±ª …æ ≥˝£∫";
+        cout << "Ê≠§ Êó• Êúü Ââç ÁöÑ Ëà™ Áè≠ ËÆ∞ ÂΩï Â∞Ü Ë¢´ Âà† Èô§Ôºö";
         cin >> date;
         cout << endl;
         if (date == "Q" || date == "q")return;
         if (!atoi(date.c_str()) || date.size() != 8) {
-            cout << "«Î  ‰ »Î ’˝ »∑ µƒ »’ ∆⁄£°\n" << endl;
-            cout << " ‰ »Î Q ∑µ ªÿ ÷˜ ≤À µ•\n" << endl;
+            cout << "ËØ∑ Ëæì ÂÖ• Ê≠£ Á°Æ ÁöÑ Êó• ÊúüÔºÅ\n" << endl;
+            cout << "Ëæì ÂÖ• Q Ëøî Âõû ‰∏ª Ëèú Âçï\n" << endl;
             Sleep(700);
         }
         else {
-            cout << "»∑ »œ …æ ≥˝ " << date << " «∞ µƒ ∫Ω ∞‡ º« ¬º£ø£®Y/N£©\n" << endl;
+            cout << "Á°Æ ËÆ§ Âà† Èô§ " << date << " Ââç ÁöÑ Ëà™ Áè≠ ËÆ∞ ÂΩïÔºüÔºàY/NÔºâ\n" << endl;
             /*string judge;
             cin >> judge;*/
             char ch;
@@ -532,12 +532,12 @@ void Clear(Flight_Num* FNT) {
             }
         }
     }
-    cout << "∫Ω ∞‡ º« ¬º …æ ≥˝ ≥… π¶£°\n" << endl;
+    cout << "Ëà™ Áè≠ ËÆ∞ ÂΩï Âà† Èô§ Êàê ÂäüÔºÅ\n" << endl;
     Sleep(700);
 }
-//≤È—Ø∫Ω∞‡
+//Êü•ËØ¢Ëà™Áè≠
 string week(string date) {
-    string W[7] = { "–«∆⁄»’","–«∆⁄“ª","–«∆⁄∂˛","–«∆⁄»˝","–«∆⁄Àƒ","–«∆⁄ŒÂ","–«∆⁄¡˘" };
+    string W[7] = { "ÊòüÊúüÊó•","ÊòüÊúü‰∏Ä","ÊòüÊúü‰∫å","ÊòüÊúü‰∏â","ÊòüÊúüÂõõ","ÊòüÊúü‰∫î","ÊòüÊúüÂÖ≠" };
     int da = atoi(date.c_str());
     int y = da / 10000, m = da % 1000 / 100, d = da % 100;
     if (m == 1 || m == 2) {
@@ -577,10 +577,10 @@ void SearchFlight_S(Flight_Start* FST, string start, string end) {
 void Check(Flight_Start* FST) {
     system("cls");
     string start, end;
-    cout << "∆ µ„ ’æ£∫";
+    cout << "Ëµ∑ ÁÇπ Á´ôÔºö";
     cin >> start;
     cout << endl;
-    cout << "÷’ µ„ ’æ£∫";
+    cout << "Áªà ÁÇπ Á´ôÔºö";
     cin >> end;
     cout << endl;
     SearchFlight_S(FST, start, end);
@@ -588,12 +588,12 @@ void Check(Flight_Start* FST) {
     if (Search_r)r = Search_r->saplnext;
     Search_r = NULL;
     if (!r) {
-        cout << "‘› Œﬁ ∏√ ∫Ω œﬂ£°\n" << endl;
+        cout << "ÊöÇ Êó† ËØ• Ëà™ Á∫øÔºÅ\n" << endl;
         Sleep(700);
         return;
     }
     else {
-        printf("           ∆ µ„ ’æ        ÷’ µ„ ’æ        ∑… –– »’ ∆⁄        –«  ∆⁄        ∫Ω ∞‡ ∫≈        ∑… ª˙ ∫≈        ≥À ‘ÿ ¡ø        ”‡ ∆± ¡ø\n");
+        printf("           Ëµ∑ ÁÇπ Á´ô        Áªà ÁÇπ Á´ô        È£û Ë°å Êó• Êúü        Êòü  Êúü        Ëà™ Áè≠ Âè∑        È£û Êú∫ Âè∑        ‰πò ËΩΩ Èáè        ‰Ωô Á•® Èáè\n");
 
         for (int i = 1; r; i++, r = r->saplnext) {
             printf("%2d.%16s  --->  %8s        %11s        %6s        %8s        %8s        %8s        %8s\n", i, r->start.c_str(), r->end.c_str(), r->date.c_str(), week(r->date).c_str(), r->FlightNum.c_str(), r->PlaneNum.c_str(), r->cap.c_str(), r->lecap.c_str());
@@ -602,12 +602,12 @@ void Check(Flight_Start* FST) {
     }
     cout << endl;
 
-    cout << "∞¥ »Œ “‚ º¸ ªÿ µΩ ÷˜ ≤À µ•£°" << endl;
+    cout << "Êåâ ‰ªª ÊÑè ÈîÆ Âõû Âà∞ ‰∏ª Ëèú ÂçïÔºÅ" << endl;
     char ch;
     ch = getch();
     return;
 }
-//∂©∆±
+//ËÆ¢Á•®
 void SearchFlight_N(Flight_Num* FNT, string FlightNum) {
     if (!FNT)return;
     if (FNT->data->FlightNum == FlightNum)  Search_r = FNT->data;
@@ -617,10 +617,10 @@ void SearchFlight_N(Flight_Num* FNT, string FlightNum) {
 void Book_Tickets(Plane_Node* PN, int tickets) {
     for (int j = 1; j <= tickets; ) {
         string name, order;
-        cout << "π∫ ∆± ’ﬂ " << j << " –’ √˚£∫";
+        cout << "Ë¥≠ Á•® ËÄÖ " << j << " Âßì ÂêçÔºö";
         cin >> name;
         cout << endl;
-        cout << "»∑ »œ π∫ ∆± £ø£®Y/N/Q)";
+        cout << "Á°Æ ËÆ§ Ë¥≠ Á•® ÔºüÔºàY/N/Q)";
         char ch;
         ch = getch();
         cout << endl << endl;
@@ -636,8 +636,8 @@ void Book_Tickets(Plane_Node* PN, int tickets) {
             in >> PN->lecap;
             PN->ticket->Buyer[New->seat] = New;
             j++;
-            cout << "◊˘ Œª ∫≈£∫" << New->seat << endl << endl;
-            cout << "∂© ∆± ≥… π¶£°\n" << endl;
+            cout << "Â∫ß ‰Ωç Âè∑Ôºö" << New->seat << endl << endl;
+            cout << "ËÆ¢ Á•® Êàê ÂäüÔºÅ\n" << endl;
             Sleep(700);
         }
         else if (ch == 'Q' || ch == 'q')return;
@@ -647,10 +647,10 @@ void Book_Tickets(Plane_Node* PN, int tickets) {
 void Wait_Tickets(Plane_Node* PN) {
     while (1) {
         string name, order;
-        cout << "∫Ú ≤π ’ﬂ –’ √˚£∫";
+        cout << "ÂÄô Ë°• ËÄÖ Âßì ÂêçÔºö";
         cin >> name;
         cout << endl;
-        cout << "»∑ »œ ∫Ú ≤π£ø£®Y/N/Q)" << endl;
+        cout << "Á°Æ ËÆ§ ÂÄô Ë°•ÔºüÔºàY/N/Q)" << endl;
         char ch;
         ch = getch();
         cout << endl;
@@ -659,15 +659,15 @@ void Wait_Tickets(Plane_Node* PN) {
             New->name = name;
             if (PN->ticket->Waiter.l() < atoi(PN->cap.c_str())) {
                 PN->ticket->Waiter.push(New);
-                cout << "∫Ú ≤π ≥… π¶£°" << endl << endl;
+                cout << "ÂÄô Ë°• Êàê ÂäüÔºÅ" << endl << endl;
                 Sleep(700);
             }
             else {
-                cout << "±æ ∫Ω ∞‡ Œﬁ ∑® ∫Ú ≤π ∏¸ ∂‡ µƒ »À£°" << endl;
+                cout << "Êú¨ Ëà™ Áè≠ Êó† Ê≥ï ÂÄô Ë°• Êõ¥ Â§ö ÁöÑ ‰∫∫ÔºÅ" << endl;
                 return;
                 Sleep(700);
             }
-            cout << "Õ£ ÷π ∫Ú ≤π£ø£®Y/N)" << endl << endl;
+            cout << "ÂÅú Ê≠¢ ÂÄô Ë°•ÔºüÔºàY/N)" << endl << endl;
             ch = getch();
             if (ch == 'Y' || ch == 'y')return;
         }
@@ -679,11 +679,11 @@ int Check_No(int max, int mode) {
     string od;
     int order;
     if (mode == 0)
-        cout << "∂© ∆± ∫Ω ∞‡ –Ú ∫≈£∫";
+        cout << "ËÆ¢ Á•® Ëà™ Áè≠ Â∫è Âè∑Ôºö";
     else if (mode == 1)
-        cout << "ÕÀ ∆± ∫Ω ∞‡ –Ú ∫≈£∫";
+        cout << "ÈÄÄ Á•® Ëà™ Áè≠ Â∫è Âè∑Ôºö";
     else if (mode == 2)
-        cout << "∫Ú ≤π ∫Ω ∞‡ –Ú ∫≈£∫";
+        cout << "ÂÄô Ë°• Ëà™ Áè≠ Â∫è Âè∑Ôºö";
     while (1) {
         cin >> od;
         cout << endl;
@@ -693,7 +693,7 @@ int Check_No(int max, int mode) {
             return order;
         }
         else {
-            cout << "«Î  ‰ »Î ’˝ »∑ µƒ ∫Ω ∞‡ –Ú ∫≈:";
+            cout << "ËØ∑ Ëæì ÂÖ• Ê≠£ Á°Æ ÁöÑ Ëà™ Áè≠ Â∫è Âè∑:";
         }
 
     }
@@ -701,20 +701,20 @@ int Check_No(int max, int mode) {
 int CheckTicket_N(Plane_Node* Buy) {
     string od;
     int order, cap = atoi(Buy->cap.c_str()), lecap = atoi(Buy->lecap.c_str());
-    cout << "∂© ∆±  ˝£∫";
+    cout << "ËÆ¢ Á•® Êï∞Ôºö";
     while (1) {
         cin >> od;
         cout << endl;
         if (od == "Q" || od == "q")return -1;
         order = atoi(od.c_str());
         if (!order || order <= 0) {
-            cout << "«Î  ‰ »Î ’˝ »∑ µƒ ∂© ∆±  ˝£∫";
+            cout << "ËØ∑ Ëæì ÂÖ• Ê≠£ Á°Æ ÁöÑ ËÆ¢ Á•® Êï∞Ôºö";
         }
         else if (order <= lecap) {
             return order;
         }
         else if (order > lecap) {
-            cout << "”‡ ∆± ¡ø ≤ª ◊„£°\n" << endl;
+            cout << "‰Ωô Á•® Èáè ‰∏ç Ë∂≥ÔºÅ\n" << endl;
             Sleep(700);
             return -1;
         }
@@ -724,12 +724,12 @@ int CheckTicket_N(Plane_Node* Buy) {
 void Book(Flight_Num* FNT) {
     string FlightNum;
     if (!FNT) {
-        cout << "‘› Œﬁ ∫Ω ∞‡ º« ¬º£°\n" << endl;
+        cout << "ÊöÇ Êó† Ëà™ Áè≠ ËÆ∞ ÂΩïÔºÅ\n" << endl;
         Sleep(700);
         return;
     }
     while (1) {
-        cout << "«Î  ‰ »Î –Ë ∂© ∆± µƒ ∫Ω ∞‡ ∫≈£∫";
+        cout << "ËØ∑ Ëæì ÂÖ• ÈúÄ ËÆ¢ Á•® ÁöÑ Ëà™ Áè≠ Âè∑Ôºö";
         cin >> FlightNum;
         cout << endl;
 
@@ -738,7 +738,7 @@ void Book(Flight_Num* FNT) {
         if (Search_r)r = Search_r->safnnext;
         Search_r = NULL;
         if (!r) {
-            cout << "‘› Œﬁ ∏√ ∫Ω œﬂ£°\n" << endl;
+            cout << "ÊöÇ Êó† ËØ• Ëà™ Á∫øÔºÅ\n" << endl;
             Sleep(700);
             return;
         }
@@ -747,7 +747,7 @@ void Book(Flight_Num* FNT) {
                 system("cls");
                 Plane_Node* tail = r;
                 int i;
-                printf("–Ú∫≈        ∆ µ„ ’æ        ÷’ µ„ ’æ        ∑… –– »’ ∆⁄        –«  ∆⁄        ∫Ω ∞‡ ∫≈        ∑… ª˙ ∫≈        ≥À ‘ÿ ¡ø        ”‡ ∆± ¡ø\n");
+                printf("Â∫èÂè∑        Ëµ∑ ÁÇπ Á´ô        Áªà ÁÇπ Á´ô        È£û Ë°å Êó• Êúü        Êòü  Êúü        Ëà™ Áè≠ Âè∑        È£û Êú∫ Âè∑        ‰πò ËΩΩ Èáè        ‰Ωô Á•® Èáè\n");
 
                 for (i = 1; tail; i++, tail = tail->safnnext) {
                     printf("%2d. %16s  --->  %8s        %11s        %6s        %8s        %8s        %8s        %8s\n", i, tail->start.c_str(), tail->end.c_str(), tail->date.c_str(), week(tail->date).c_str(), tail->FlightNum.c_str(), tail->PlaneNum.c_str(), tail->cap.c_str(), tail->lecap.c_str());
@@ -757,7 +757,7 @@ void Book(Flight_Num* FNT) {
                 /*string od;*/
                 char ch;
                 int order, No, ticket;
-                cout << "∞¥ B ∂© ∆±£¨W ∫Ú ≤π£¨Q ÕÀ ªÿ …œ º∂ ≤À µ•£¨∆‰ ”‡ º¸ ∑µ ªÿ ÷˜ ≤À µ•" << endl;
+                cout << "Êåâ B ËÆ¢ Á•®ÔºåW ÂÄô Ë°•ÔºåQ ÈÄÄ Âõû ‰∏ä Á∫ß Ëèú ÂçïÔºåÂÖ∂ ‰Ωô ÈîÆ Ëøî Âõû ‰∏ª Ëèú Âçï" << endl;
                 /*cin >> od;*/
                 ch = getch();
                 cout << endl;
@@ -782,15 +782,15 @@ void Book(Flight_Num* FNT) {
         }
     }
 }
-//ÕÀ∆±
+//ÈÄÄÁ•®
 void Refound_Tickets(Plane_Node* PN) {
     while (1) {
         string name, order;
         char ch;
-        cout << "ÕÀ ∆± ’ﬂ –’ √˚£∫";
+        cout << "ÈÄÄ Á•® ËÄÖ Âßì ÂêçÔºö";
         cin >> name;
         cout << endl;
-        cout << "»∑ »œ ÕÀ ∆±£ø£®Y/N/Q)" << endl;
+        cout << "Á°Æ ËÆ§ ÈÄÄ Á•®ÔºüÔºàY/N/Q)" << endl;
         ch = getch();
         cout << endl;
         if (ch == 'y' || ch == 'Y') {
@@ -808,14 +808,14 @@ void Refound_Tickets(Plane_Node* PN) {
                         in << atoi(PN->lecap.c_str()) + 1;
                         in >> PN->lecap;
                     }
-                    cout << "ÕÀ ∆± ≥… π¶£°" << endl << endl;
+                    cout << "ÈÄÄ Á•® Êàê ÂäüÔºÅ" << endl << endl;
                     Sleep(700);
                     break;
                 }
             }
             if (i == atoi(PN->cap.c_str()) + 1) {
-                cout << "ÕÀ ∆±  ß ∞‹£°\n" << endl;
-                cout << "≤È Œﬁ ¥À »À£°\n" << endl;
+                cout << "ÈÄÄ Á•® Â§± Ë¥•ÔºÅ\n" << endl;
+                cout << "Êü• Êó† Ê≠§ ‰∫∫ÔºÅ\n" << endl;
                 Sleep(700);
                 return;
             }
@@ -826,12 +826,12 @@ void Refound_Tickets(Plane_Node* PN) {
 void Refund(Flight_Num* FNT) {
     string FlightNum;
     if (!FNT) {
-        cout << "‘› Œﬁ ∫Ω ∞‡ º« ¬º£°\n" << endl;
+        cout << "ÊöÇ Êó† Ëà™ Áè≠ ËÆ∞ ÂΩïÔºÅ\n" << endl;
         Sleep(700);
         return;
     }
     while (1) {
-        cout << "«Î  ‰ »Î –Ë ÕÀ ∆± µƒ ∫Ω ∞‡ ∫≈£∫";
+        cout << "ËØ∑ Ëæì ÂÖ• ÈúÄ ÈÄÄ Á•® ÁöÑ Ëà™ Áè≠ Âè∑Ôºö";
         cin >> FlightNum;
         cout << endl;
 
@@ -840,7 +840,7 @@ void Refund(Flight_Num* FNT) {
         if (Search_r)r = Search_r->safnnext;
         Search_r = NULL;
         if (!r) {
-            cout << "‘› Œﬁ ∏√ ∫Ω œﬂ£°\n" << endl;
+            cout << "ÊöÇ Êó† ËØ• Ëà™ Á∫øÔºÅ\n" << endl;
             Sleep(700);
             return;
         }
@@ -849,7 +849,7 @@ void Refund(Flight_Num* FNT) {
                 system("cls");
                 Plane_Node* tail = r;
                 int i;
-                printf("–Ú∫≈        ∆ µ„ ’æ        ÷’ µ„ ’æ        ∑… –– »’ ∆⁄        –«  ∆⁄        ∫Ω ∞‡ ∫≈        ∑… ª˙ ∫≈        ≥À ‘ÿ ¡ø        ”‡ ∆± ¡ø\n");
+                printf("Â∫èÂè∑        Ëµ∑ ÁÇπ Á´ô        Áªà ÁÇπ Á´ô        È£û Ë°å Êó• Êúü        Êòü  Êúü        Ëà™ Áè≠ Âè∑        È£û Êú∫ Âè∑        ‰πò ËΩΩ Èáè        ‰Ωô Á•® Èáè\n");
 
                 for (i = 1; tail; i++, tail = tail->safnnext) {
                     printf("%d.  %16s  --->  %8s        %11s        %6s        %8s        %8s        %8s        %8s\n", i, tail->start.c_str(), tail->end.c_str(), tail->date.c_str(), week(tail->date).c_str(), tail->FlightNum.c_str(), tail->PlaneNum.c_str(), tail->cap.c_str(), tail->lecap.c_str());
@@ -860,7 +860,7 @@ void Refund(Flight_Num* FNT) {
                 string od;*/
                 int order, No;
                 char ch;
-                cout << "∞¥ R ÕÀ ∆±£¨Q ∑µ ªÿ …œ º∂ ≤À µ•£¨∆‰ ”‡ º¸ ∑µ ªÿ ÷˜ ≤À µ•" << endl;
+                cout << "Êåâ R ÈÄÄ Á•®ÔºåQ Ëøî Âõû ‰∏ä Á∫ß Ëèú ÂçïÔºåÂÖ∂ ‰Ωô ÈîÆ Ëøî Âõû ‰∏ª Ëèú Âçï" << endl;
                 ch = getch();
                 cout << endl;
                 if (ch == 'R' || ch == 'r') {
@@ -874,7 +874,7 @@ void Refund(Flight_Num* FNT) {
         }
     }
 }
-//±£¥Ê∫Ω∞‡–≈œ¢
+//‰øùÂ≠òËà™Áè≠‰ø°ÊÅØ
 void Del_Flight(Flight_Time* FTT) {
     Plane_Node* del = FTT->data, * T;
     for (; del->satmnext; del = del->satmnext);
@@ -902,7 +902,7 @@ void Del_Flight(Flight_Time* FTT) {
 void Save_Buyer(Plane_Node* PN) {
     Tickets_Node* T = PN->ticket;
     string root = PN->date + "\\" + PN->date + PN->start + "-" + PN->end + PN->FlightNum;
-    string mkdir = "mkdir " + root, filename = root + "\\" + "∂© ∆± √˚ µ•.txt";
+    string mkdir = "mkdir " + root, filename = root + "\\" + "ËÆ¢ Á•® Âêç Âçï.txt";
 
     if (PN->lecap == PN->cap) {
         FILE* fp = fopen(filename.c_str(), "wt+");
@@ -917,8 +917,8 @@ void Save_Buyer(Plane_Node* PN) {
     FILE* fp = fopen(filename.c_str(), "wt+");
     for (int i = 1; i < 500; i++) {
         if (T->Buyer[i]) {
-            fprintf(fp, "◊˘Œª£∫ %d\n", i);
-            fprintf(fp, "–’√˚£∫ %s\n\n", T->Buyer[i]->name.c_str());
+            fprintf(fp, "Â∫ß‰ΩçÔºö %d\n", i);
+            fprintf(fp, "ÂßìÂêçÔºö %s\n\n", T->Buyer[i]->name.c_str());
         }
     }
     fclose(fp);
@@ -927,7 +927,7 @@ void Save_Waiter(Plane_Node* PN) {
     Tickets_Node* T = PN->ticket;
 
     string root = PN->date + "\\" + PN->date + PN->start + "-" + PN->end + PN->FlightNum;
-    string  mkdir = "mkdir " + root, filename = root + "\\" + "∫Ú ≤π √˚ µ•.txt";
+    string  mkdir = "mkdir " + root, filename = root + "\\" + "ÂÄô Ë°• Âêç Âçï.txt";
     if (T->Waiter.isempty()) {
         FILE* fp = fopen(filename.c_str(), "wt+");
         if (fp)
@@ -957,14 +957,14 @@ void Save_Waiter(Plane_Node* PN) {
 void Save_Flight(Flight_Time* FTT, FILE* FP) {
     Plane_Node* T = FTT->data->satmnext;
     FILE* fp;
-    string filename = FTT->date + "\\" + FTT->date + "∫Ω∞‡º«¬º.txt";
+    string filename = FTT->date + "\\" + FTT->date + "Ëà™Áè≠ËÆ∞ÂΩï.txt";
     string rd = "rd /s/q " + FTT->date;
     if (!T) {
         system(rd.c_str());
         return;
     }
     fp = fopen(filename.c_str(), "wt+");
-    fprintf(fp, "        ∆ µ„ ’æ        ÷’ µ„ ’æ        ∑… –– »’ ∆⁄        ∫Ω ∞‡ ∫≈        ∑… ª˙ ∫≈        ≥À ‘ÿ ¡ø        ”‡ ∆± ¡ø\n");
+    fprintf(fp, "        Ëµ∑ ÁÇπ Á´ô        Áªà ÁÇπ Á´ô        È£û Ë°å Êó• Êúü        Ëà™ Áè≠ Âè∑        È£û Êú∫ Âè∑        ‰πò ËΩΩ Èáè        ‰Ωô Á•® Èáè\n");
     int i = 0;
     for (; T; T = T->satmnext) {
         fprintf(fp, "%16s  --->  %8s        %11s        %8s        %8s        %8s        %8s\n", T->start.c_str(), T->end.c_str(), T->date.c_str(), T->FlightNum.c_str(), T->PlaneNum.c_str(), T->cap.c_str(), T->lecap.c_str());
@@ -985,12 +985,12 @@ void Save(Flight_Time* FTT) {
         if (!FTT->next->data->satmnext)FTT->next = FTT->next->next;
     }
     if (!FTT->next) {
-        cout << "‘› Œﬁ ∫Ω ∞‡ –≈ œ¢ ø… ±£ ¥Ê£°\n" << endl;
+        cout << "ÊöÇ Êó† Ëà™ Áè≠ ‰ø° ÊÅØ ÂèØ ‰øù Â≠òÔºÅ\n" << endl;
         Sleep(700);
     }
     else {
-        fp = fopen("∫Ω∞‡º«¬º.txt", "wt+");
-        fprintf(fp, "        ∆ µ„ ’æ        ÷’ µ„ ’æ        ∑… –– »’ ∆⁄        ∫Ω ∞‡ ∫≈        ∑… ª˙ ∫≈        ≥À ‘ÿ ¡ø        ”‡ ∆± ¡ø\n");
+        fp = fopen("Ëà™Áè≠ËÆ∞ÂΩï.txt", "wt+");
+        fprintf(fp, "        Ëµ∑ ÁÇπ Á´ô        Áªà ÁÇπ Á´ô        È£û Ë°å Êó• Êúü        Ëà™ Áè≠ Âè∑        È£û Êú∫ Âè∑        ‰πò ËΩΩ Èáè        ‰Ωô Á•® Èáè\n");
 
         for (; T; T = T->next) {
             string mkdir = "mkdir " + T->date;
@@ -1000,7 +1000,7 @@ void Save(Flight_Time* FTT) {
             Save_Flight(T, fp);
         }
         fclose(fp);
-        cout << "∫Ω∞‡º«¬º±£¥Ê≥…π¶£°" << endl;
+        cout << "Ëà™Áè≠ËÆ∞ÂΩï‰øùÂ≠òÊàêÂäüÔºÅ" << endl;
         Sleep(700);
 
     }
@@ -1016,7 +1016,7 @@ int main() {
     while (1) {
         system("cls");
         SetUp();
-        cout << "«Î —° ‘Ò ≤À µ•£∫";
+        cout << "ËØ∑ ÈÄâ Êã© Ëèú ÂçïÔºö";
         /*cin >> od;
         cout << endl;
         order = od[0] - '0';*/
@@ -1050,7 +1050,7 @@ int main() {
         case 0:
             return 0;
         default:
-            cout << "«Î —° ‘Ò ’˝ »∑ µƒ ≤À µ•£°" << endl;
+            cout << "ËØ∑ ÈÄâ Êã© Ê≠£ Á°Æ ÁöÑ Ëèú ÂçïÔºÅ" << endl;
             Sleep(700);
             break;
         }
